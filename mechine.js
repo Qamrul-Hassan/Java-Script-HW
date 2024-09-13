@@ -5,9 +5,7 @@ let unsoldProducts = 3;
 
 let productsPerMachine = productsPerDay / machines;
 
-
 let totalProduction = productsPerMachine * (machines + additionalMachines);
-
 
 let finalProducts = totalProduction - unsoldProducts;
 let fianlproductsinhand = totalProduction - finalProducts;
